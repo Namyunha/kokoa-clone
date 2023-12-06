@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Welcome to Kokoa Clone</title>
   </head>
   <body>
     <div id="status-bar">
@@ -20,6 +20,24 @@
         <i class="fa-solid fa-bolt-lightning"></i>
       </div>
     </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+      <p class="welcome-header__text">
+        If you have a Kokoa Account, log in with your email or phone number
+      </p>
+    </header>
+    <!-- 각 페이지에 많은 header가 있기에 header를 특정 지어줄 필요가 있다. -->
+
+    <form id="login-form">
+      <input type="text" placeholder="Email or phone number" />
+      <input type="text" placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <a href="#">Find Kakao Account or Password</a>
+    </form>
+    <!-- 구상하려는 웹사이트에 form의 개수가 하나로 예측이 된다면 네이밍에 신경쓸 필요 없음
+    그래서 미리 무엇을 만들어야 할 지 구상하는건 중요 -->
+
     <script
       src="https://kit.fontawesome.com/42f0209506.js"
       crossorigin="anonymous"
