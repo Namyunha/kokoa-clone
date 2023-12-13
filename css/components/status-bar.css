@@ -29,3 +29,15 @@
 .status-bar__column .fa-battery-full {
     margin: 0px 5px;
 }
+.status-bar__cog {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: tomato;
+    display: inline-block;
+    position: absolute;
+    top: -5px;
+}
+.screen-header__icons__icon {
+    position: relative;
+}
