@@ -35,6 +35,7 @@
   to {
     opacity: 0;
     visibility: hidden;
+    /* 화면상에서 나타나지 않는 것처럼 보이게 함 */
   }
 }
 
@@ -49,4 +50,5 @@
   align-items: center;
   font-size: 132px;
   animation: hideSplashScreen 1.3s ease-in-out forwards;
+  /* forwards가 마지막 상태( to 상태 )를 지속시켜 줌 */
 }
